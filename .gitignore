@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+node_modules/
+
+# Production build outputs
+dist
+dist/
+dist-ssr
+dist-ssr/
+
+# Environment variables & local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Test and coverage artifacts
+coverage/
+*.lcov
+
+# Temporary files and caches
+.cache/
+.temp/
+*.tmp
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
